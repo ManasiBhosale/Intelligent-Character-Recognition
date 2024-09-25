@@ -1,31 +1,4 @@
 
-
-<?php
-/*
-// upload.php
-if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_FILES['image'])) {
-    $target_dir = "uploads/";
-    $target_file = $target_dir . basename($_FILES["image"]["name"]);
-    $imageFileType = strtolower(pathinfo($target_file, PATHINFO_EXTENSION));
-
-    // Check if image file is a actual image or fake image
-    $check = getimagesize($_FILES["image"]["tmp_name"]);
-    if ($check !== false) {
-        // Move uploaded file to target directory
-        if (move_uploaded_file($_FILES["image"]["tmp_name"], $target_file)) {
-            // Redirect to the same page with input image and output image paths
-            header("Location: index.php?input_image=" . $target_file . "&output_image=" . $target_file);
-        } else {
-            echo "Sorry, there was an error uploading your file.";
-        }
-    } else {
-        echo "File is not an image.";
-    }
-} else {
-    echo "No file uploaded.";
-}
-*/
-?>
 <html lang="en">
 <head>
 <title>Upload Image</title>
