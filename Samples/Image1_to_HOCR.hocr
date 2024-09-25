@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+ <head>
+  <title></title>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+  <meta name='ocr-system' content='custom'/>
+  <meta name='ocr-capabilities' content='ocr_page ocr_carea ocr_par ocr_line ocrx_word ocrp_wconf'/>
+ </head>
+ 
+ <body>
+  <div class='ocr_page' id='page_1' title='image "image.png"; bbox 0 0 1000 1000; ppageno 0'>
+   <div class='ocr_carea' id='block_1_1' title="bbox 0 0 1000 1000">
+    <p class='ocr_par' id='par_1_1' lang='eng' title="bbox 0 0 1000 1000">
+     <span class='ocr_line' id='line_1_1' title="bbox 174 217 311 259; baseline 0 0">
+      <span class='ocrx_word' id='word_1_1_1' title='bbox 174 217 180 259; x_wconf 100'>1</span>
+      <span class='ocrx_word' id='word_1_1_2' title='bbox 215 217 244 259; x_wconf 100'>2</span>
+      <span class='ocrx_word' id='word_1_1_3' title='bbox 284 217 311 259; x_wconf 100'>3</span>
+     </span>
+     <span class='ocr_line' id='line_1_2' title="bbox 181 325 320 366; baseline 0 0">
+      <span class='ocrx_word' id='word_1_2_1' title='bbox 181 325 212 366; x_wconf 100'>4</span>
+      <span class='ocrx_word' id='word_1_2_2' title='bbox 231 325 254 366; x_wconf 100'>5</span>
+      <span class='ocrx_word' id='word_1_2_3' title='bbox 296 325 320 366; x_wconf 100'>6</span>
+     </span>
+     <span class='ocr_line' id='line_1_3' title="bbox 168 403 304 445; baseline 0 0">
+      <span class='ocrx_word' id='word_1_3_1' title='bbox 168 403 190 445; x_wconf 100'>7</span>
+      <span class='ocrx_word' id='word_1_3_2' title='bbox 210 403 232 445; x_wconf 100'>8</span>
+      <span class='ocrx_word' id='word_1_3_3' title='bbox 277 403 304 445; x_wconf 100'>9</span>
+     </span>
+    </p>
+   </div>
+  </div>
+ </body>
+</html>
