@@ -101,7 +101,7 @@ root/
 - **upload.php**: Handles the file upload and stores the uploaded image for further processing.
 - **process_image.php**: Handles the core image processing tasks by invoking the Python scripts for OCR.
 - **display_image1.php**: Displays the original image along with the machine-readable text.
-- **overlay.php**: Displays both the input and output strips for comparison, helping to validate the recognition process.
+- **overlay.php**: Displays both the input and output strips for comparison and also allows the user to correct any misclassified digits.
 - **submit_digits.php**: Supports the submission of the recognized digits.
 - **main3.py**: Python script responsible for image preprocessing, segmentation, and classification.
 - **cut_image.py**: Slices the input image into row strips for better segment visualization.
