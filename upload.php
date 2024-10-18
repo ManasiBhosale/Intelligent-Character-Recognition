@@ -27,7 +27,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_FILES['image'])) {
             //echo "skew" .$skew;
             //echo "lined" .$lined;
             // Redirect to the next page with the checkbox values as query parameters
-            header("Location: index.php?input_image=" . $target_file . "&output_image=" . $target_file . "&shadow=" . $shadow . "&noise=" . $noise . "&skew=" . $skew . "&lined=" . $lined . "&skeletonize=" . $skeletonize);
+            header("Location: index.html?input_image=" . $target_file . "&output_image=" . $target_file . "&shadow=" . $shadow . "&noise=" . $noise . "&skew=" . $skew . "&lined=" . $lined . "&skeletonize=" . $skeletonize);
         } else {
             echo "Sorry, there was an error uploading your file.";
         }
